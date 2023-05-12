@@ -1,0 +1,188 @@
+@font-face {
+    font-family: RopaSans;
+    src: url(/fonts/RopaSans-Regular.ttf)
+}
+
+.interagir{
+    width: 100%;
+    height: 80vh;
+    background-image: url(img-interagir-fundo.png);
+    background-size: cover;
+}
+
+.titulo-interagir {
+    font-family: 'Valorant';
+    width: 100%;
+    height: 20vh;
+    background-color: #0c1c24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-titulo {
+    color: white;
+    font-size: 50px;
+}
+
+
+.div-interagir {
+    width: 40%;
+    height: 30vh;
+}
+
+.img-jet-interagir {
+    width: 66%;
+    height: 76vh;
+    margin-left: 150%;
+    margin-top: 3%;
+}
+
+
+
+.pergunta1{
+
+    height: 44vh;
+    width: 37%;
+    margin-left: 15%;
+    margin-top: -7%;    
+}
+
+.titulo-p1{
+    display: flex;
+    justify-content: center;
+    font-family: 'RopaSans';
+    color: white;
+    font-size: 50px;
+}
+
+.btn-sim-p1{
+    width: 15vw;
+    height: 10vh;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: linear-gradient(to left,#f84454 60%, rgb(38, 43, 44) 60%) right;
+    font-family: 'RopaSans';
+    font-size: 20px;
+    background-size: 200%;
+    transition: .8s ease-out;
+    margin-left: 19px;
+    margin-top: 20px;
+}
+
+
+.btn-sim-p1:hover {
+
+    color: white;
+    background: linear-gradient(to right,rgb(38, 43, 44) 60%, #f84454 60%) left;
+    background-size: 200%;
+    transition: .8s ease-out;
+}
+
+.btn-nao-p1{
+    width: 16vw;
+    height: 10vh;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: linear-gradient(to right,#f84454 60%, rgb(38, 43, 44) 60%) left;
+    font-family: 'RopaSans';
+    font-size: 20px;
+    background-size: 200%;
+    transition: .8s ease-out;
+    margin-left: 51%;
+    margin-top: -58px;
+}
+
+
+.btn-nao-p1:hover {
+
+    color: white;
+    background: linear-gradient(to left,rgb(38, 43, 44) 60%, #f84454 60%) right;
+    background-size: 200%;
+    transition: .8s ease-out;
+}
+
+
+
+.pergunta2{
+    height: 44vh;
+    width: 41%;
+    margin-left: 15%;
+    margin-top: -7%;
+    display: flex;
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo-p2{
+    display: flex;
+    justify-content: center;
+    font-family: 'RopaSans';
+    color: white;
+    font-size: 50px;
+}
+
+.texts-inputs{
+    display: flex;
+    justify-content: space-between;
+    gap: 72px;
+}
+
+
+.texts1-inputs1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.texts2-inputs2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+
+
+.text-input-p2{
+    font-family: 'RopaSans';
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.pergunta2 input{
+    width: 20vw;
+    height: 8vh;
+    border: none;
+    color: #f84454;
+    font-family: 'RopaSans';
+    font-size: 20px;
+    outline: black 2px solid;
+    text-align: center;
+
+}
+
+.pergunta2 input:focus{
+    outline: #f84454 2px solid;
+}
+
+
+.text2-input2-p2{
+    font-family: 'RopaSans';
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    width: 113%;
+}
